@@ -11,7 +11,7 @@
     --fuente: 'Poppins', sans-serif;
 }
 
-/* RESET GLOBAL */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -25,7 +25,7 @@ body {
     line-height: 1.6;
 }
 
-/* ENCABEZADO */
+
 .hd {
     background-color: var(--color-principal);
     color: var(--color-blanco);
@@ -81,7 +81,7 @@ body {
     width: 100%;
 }
 
-/* SECCIÓN PERFIL */
+
 .seccion-perfil {
     text-align: center;
     padding: 60px 20px;
@@ -99,7 +99,7 @@ body {
     margin-bottom: 20px;
 }
 
-/* SECCIONES (GALERÍA / CERTIFICADOS / TARJETAS) */
+
 .box {
     background-color: var(--color-principal);
     color: var(--color-blanco);
@@ -128,7 +128,7 @@ body {
     border-radius: 2px;
 }
 
-/* GRID DE TARJETAS */
+
 .galeria-cuadricula {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -161,7 +161,7 @@ body {
     padding: 20px;
 }
 
-/* TABLAS */
+
 .tabla-responsive {
     overflow-x: auto;
     margin-top: 20px;
@@ -196,7 +196,7 @@ body {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-/* BOTONES */
+
 .boton-descarga {
     color: var(--color-acento);
     text-decoration: none;
@@ -220,7 +220,7 @@ body {
     color: #888;
 }
 
-/* ANIMACIÓN FADE-IN */
+
 .fade-in {
     opacity: 0;
     transform: translateY(30px);
